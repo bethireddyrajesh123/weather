@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://images.wallpaperscraft.com/image/single/mountains_peaks_clouds_1012877_1280x720.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            color: white;
+            opacity: 0.9;
+        }
+
+        .container {
+            text-align: center;
+            background-color: transparent;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .container h1 {
+            margin-bottom: 20px;
+            color: black; 
+            font-family: "Times New Roman", Times, serif; 
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button-group button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white; 
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+        }
+
+        .button-group button:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Dashboard</h1>
+        <h1>Weather Information Webpage</h1>
+        <div class="button-group">
+            <button onclick="location.href='login.html'">Login</button>
+            <button onclick="location.href='signup.html'">Signup</button>
+        </div>
+    </div>
+</body>
+</html>
